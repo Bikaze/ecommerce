@@ -53,6 +53,7 @@ export default buildConfig({
       beforeDashboard: [BeforeDashboard],
     },
     webpack: config => {
+      config.cache = false
       return {
         ...config,
         resolve: {
