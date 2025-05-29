@@ -1,3 +1,12 @@
+/**
+ * Root Layout Component
+ * Handles:
+ * - Global app structure
+ * - Theme initialization
+ * - Font loading
+ * - Core components mounting (Header, Footer, AdminBar)
+ * - Meta tags
+ */
 import React from 'react'
 import { Metadata } from 'next'
 import { Jost } from 'next/font/google'

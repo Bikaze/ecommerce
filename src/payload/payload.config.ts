@@ -1,3 +1,13 @@
+/**
+ * Core Payload CMS Configuration
+ * Sets up:
+ * - Database adapter (MongoDB)
+ * - Admin panel customization
+ * - Collections and Globals
+ * - Authentication
+ * - Media handling
+ * - Plugin integrations (Stripe, SEO, Cloud)
+ */
 import { webpackBundler } from '@payloadcms/bundler-webpack' // bundler-import
 import { mongooseAdapter } from '@payloadcms/db-mongodb' // database-adapter-import
 import { payloadCloud } from '@payloadcms/plugin-cloud'

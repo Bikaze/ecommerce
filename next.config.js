@@ -2,6 +2,15 @@
 const ContentSecurityPolicy = require('./csp')
 const redirects = require('./redirects')
 
+/**
+ * Main Next.js configuration
+ * Contains settings for:
+ * - TypeScript compilation
+ * - Image optimization
+ * - Security headers
+ * - Redirects
+ * - CSP (Content Security Policy)
+ */
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,

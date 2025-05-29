@@ -1,3 +1,12 @@
+/**
+ * Global Application Styles
+ * Defines core variables and base styles:
+ * - Root variables (spacing, fonts)
+ * - Theme configuration
+ * - Typography
+ * - Layout fundamentals
+ * - Responsive breakpoints
+ */
 @use './queries.scss' as *;
 @use './colors.scss' as *;
 @use './type.scss' as *;
